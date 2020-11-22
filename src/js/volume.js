@@ -3,7 +3,4 @@ function set(elementID, volume){
     doc.volume = volume; 
 }
 
-function get(elementID){
-    var doc = document.getElementById(elementID);
-    return doc.volume;
-}
+set("audio", 0.2)
