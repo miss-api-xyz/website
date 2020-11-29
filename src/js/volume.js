@@ -3,4 +3,4 @@ function set(elementID, volume){
     doc.volume = volume; 
 }
 
-set("audio", 0.2)
+set('audio', 0.2)
